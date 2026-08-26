@@ -1,11 +1,11 @@
 cask "relaybar" do
-  version "1.4.0"
-  sha256 "292ccadee9e8577c65cac86592778501c51591990a803685c0b71db004e4d105"
+  version "1.5.0"
+  sha256 "fa292463fb2336de3f93d1fec1d18ddea5088c51151c871cdf0323cde43be8ae"
 
   url "https://github.com/lx2026/RelayBar/releases/download/v#{version}/RelayBar.zip",
       verified: "github.com/lx2026/RelayBar/"
   name "RelayBar"
-  desc "Menu bar manager for SSH tunnels and remote file previews"
+  desc "Menu bar SSH forwarding and remote file workspace"
   homepage "https://lx2026.github.io/RelayBar/"
 
   depends_on macos: :ventura
