@@ -1,6 +1,6 @@
 cask "relaybar" do
-  version "1.5.1"
-  sha256 "e10c1e5e1210e75312901445fc0cb573666ad2aea71f96e8f281f5c824994069"
+  version "1.6.0"
+  sha256 "7c9415c51fd80fe3174aa43198713d79003c92d3b3a6262bbdd7e265911168aa"
 
   url "https://github.com/lx2026/RelayBar/releases/download/v#{version}/RelayBar.zip",
       verified: "github.com/lx2026/RelayBar/"
